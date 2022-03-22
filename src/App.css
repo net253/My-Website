@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+.App {
+  background: url("./asset/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  padding-bottom: 2.4rem;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem
+}
+
+.nav-brand p {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+.navbar-github {
+  padding: 0;
+  margin: auto 0;
+}
+
+.navbar-github img {
+  background-color: #dee2e6;
+  border-radius: 50%;
+}
+
+/* --- Footer --- */
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  padding: 0.6rem;
+}
+
+.footer-container p {
+  color: azure;
+  margin: 0;
+}
+
+/*--- Home ---*/
+.home-container {
+  min-height: calc(100vh - 5.75rem);
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.home-motion {
+  width: 100%;
+  max-width: 35rem;
+  margin: auto;
+}
+
+.home-content {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1rem;
+  border: none;
+}
+
+.home-img {
+  border: 0px solid #dee2e6;
+  border-radius: 50%;
+  padding: 0;
+  width: 24rem;
+}
+
+.home-text p {
+  padding: 0;
+  margin: 0;
+}
+
+/* --- Experience --- */
+.vertical-timeline {
+  min-height: calc(100vh - 5.75rem);
+}
+
+.vertical-timeline-element--work {
+  text-align: left;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+  border-top: 3px solid #533E85;
+}
+
+/* --- Education --- */
+.vertical-timeline-element--education {
+  text-align: left;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+  border-top: 3px solid #74959A;
+}
+
+/* --- Skills --- */
+.skills-main-container {
+  min-height: calc(100vh - 5.75rem);
+  display: grid;
+  padding: 2rem;
+  width: 100%;
+}
+
+.skills-card {
+  width: 100%;
+  max-width: 44rem;
+  min-height: 29.3rem;
+  background-color: rgba(185, 185, 185, 0.5);
+  margin: auto;
+  padding: 1rem;
+}
+
+.skills-nav-item {
+  display: grid;
+  margin: 0.5rem;
+}
+
+.sklils-nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.sklils-nav-button h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-img {
+  border: 0px solid #dee2e6;
+  border-radius: 0.4rem;
+  padding: 0;
+  background-color: unset;
+  margin: 0 0.7rem;
+}
+
+.skills-lottie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* --- Project --- */
+.project-container {
+  min-height: calc(100vh - 5.75rem);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-card {
+  width: 20rem;
+  height: 16rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.project-button {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.project-tool {
+  display: inline-block;
+  margin-right: 0.3rem;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+  min-width: 3.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
